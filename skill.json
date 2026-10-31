@@ -1,0 +1,23 @@
+{
+  "name": "genpark-personal-agent-liver-fib4-apri-steatohepatitis-progression-skill",
+  "version": "1.0.0",
+  "description": "FIB-4 index and AST-to-Platelet Ratio Index (APRI) metabolic-dysfunction associated steatotic liver disease / MASH staging.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "compute_liver_fib4_apri_staging",
+      "description": "FIB-4 index and AST-to-Platelet Ratio Index (APRI) metabolic-dysfunction associated steatotic liver disease / MASH staging.",
+      "sample_input": {
+        "age_years": 48,
+        "ast_u_l": 28.0,
+        "alt_u_l": 32.0,
+        "platelets_10_9_l": 240.0,
+        "ast_uln_u_l": 35.0
+      }
+    }
+  ]
+}
